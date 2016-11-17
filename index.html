@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body style="margin:0px;">
+  <div style="background-color:#000000;padding:1px;">
+  	<h3 id='title' style='margin-left:25px;'>Tic Tac Toe</h3>
+  </div>
+  <div id='newGameBar'>
+  	<div id='newGame'>NEW GAME</div>
+  </div>
+  <div>
+  	<div class="halfpage">
+  		<h3 id='play'>PLAY</h3>
+  		<h3 id='rules'>Rules</h3>
+  		<p id='description' style='margin:25px;'><b>Tic-tac-toe</b> (or <b>Noughts and crosses, Xs and Os</b>) is a paper-and-pencil game for two players, X and X, who take turns marking the spaces in a 3x3 grid. The player who succeeds in placing three respective marks in a horizontal, vertical, or diagnoal row wins the game.</p>
+  	</div>
+  	<div class="halfpage">
+  		<div>
+  			<!--<div id="messageBox">New Game!</div>-->
+  			<div id='statusBox'>
+	  			<div id='statusIcon'> i </div>
+	  			<div id='statusMessage'>New Game!</div>
+	  			<div id='statusClose'>
+	  				<div id='statusCloseText'>X</div>
+	  			</div>
+	  		</div>
+  		</div>
+  		<div>
+  			<div class="row">
+  				<div class="box" id="1"></div>
+  				<div class="box" id="2"></div>
+  				<div class="box" id="3"></div>
+  			</div>
+  			<div class="row">
+  				<div class="box" id="4"></div>
+  				<div class="box" id="5"></div>
+  				<div class="box" id="6"></div>
+  			</div>
+  			<div class="row">
+  				<div class="box" id="7"></div>
+  				<div class="box" id="8"></div>
+  				<div class="box" id="9"></div>
+  			</div>
+  		</div>
+  		<div align="center"><button id="reset">Reset</button></div>
+  	</div>
+  </div>
+
+  <script src='app.js'></script>
+</body>
+</html>
